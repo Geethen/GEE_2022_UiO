@@ -1,6 +1,6 @@
 ---
 hero:
-  heading: Novela, the simplest way to start publishing with Hugo and Forestry.
+  heading: An Introduction to Google Earth Engine (GEE).
   maxWidthPX: 652
 seo:
   image: /images/hero-2.jpg
