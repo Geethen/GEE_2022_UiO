@@ -1,7 +1,7 @@
 ---
 title: Part 1 hands on
 date: 2022-04-13
-hero: /images/hero-2.jpg
+hero: /images/p1f1.png
 excerpt: Load, filter and visualise GEE data.
 timeToRead: 4
 authors:
@@ -10,7 +10,7 @@ authors:
 ---
 Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
 
-![](/images/p1_f1.png)
+![](/images/p1f1.png)
 **Figure 1:** The final expected output for this practical showing Sentinel-2, level 2A RGB imagery clipped to a boundary.
 ***
 
@@ -66,6 +66,7 @@ Here, we centre our map area on ‘geometry’, the point we have added earlier.
 An easy way to set the visualisation parameters is to run the script without any visualisation parameters (replace rgb_vp with a set of empty {}). This will display a black image since the bands for visualisation and the range of band values has not yet been set. To set the visualisation parameters, hover over the Layers button and click the cog wheel beside the added layer name (‘filtered first scene’) and set the parameters according to Figure 3 (below). Lastly, click apply and then the import button. This will add an entry within the imports section called imageVisParam. Rename this to rgb_vp. The RGB bands are necessary to create a True Colour Image (TCI), that when viewed will have a natural appearance. At the same time if instead you select the NIR, green and red band in place of the RGB channels respectively, changes in health vegetation become more pronounced. This is referred to as a False Colour Image (FCI). To explore and better understand the value of FCI’s refer to this [link](http://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/composites.html).
 
 ![](/images/p1f4.png)
+
 **Figure 3:** B2-4 correspond to the Blue, Green and Red bands, respectively. The stretch: 100% is used to automatically set the range values. The range values correspond to the minimum and maximum pixel values within the image displayed i.e., the filtered first scene that was
 8
 clipped to the boundary. Keep in mind that the RGB band numbers may vary for different satellite platforms.
@@ -75,6 +76,6 @@ To incorporate our new specified visualisation parameters, you can then add rgb_
 Map.addLayer(clipped,rgb_vp,'filtered first scene');
 ```
 
-Practical 1 Exercise
+## Practical 1 Exercise
 • Repeat this practical for the Landsat-8 surface reflectance, tier-1 product.
 • Repeat this practical for the SRTM elevation dataset. Hint, this is a single band dataset, adjust the visualisation parameters accordingly.
