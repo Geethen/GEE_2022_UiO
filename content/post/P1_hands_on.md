@@ -1,7 +1,7 @@
 ---
 title: Part 1 hands on
 date: 2022-04-13
-hero: /images/p1f1.png
+hero: /images/p1f0.png
 excerpt: Load, filter and visualise GEE data.
 timeToRead: 4
 authors:
