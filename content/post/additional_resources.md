@@ -12,9 +12,11 @@ authors:
 
 | Description         | Link                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Awesome GEE         | [https://giswqs.github.io/Awesome-GEE/](https://giswqs.github.io/Awesome-GEE/)                                                                                         |
+| Awesome GEE         | [https://giswqs.github.io/Awesome-GEE/](https://giswqs.github.io/Awesome-GEE/) |
+|Awesome EE Apps| [https://github.com/philippgaertner/awesome-earth-engine-apps](https://github.com/philippgaertner/awesome-earth-engine-apps)                                              
 | Beginner’s Cookbook | [https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook](https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook) |
 GEE Developer Resources          |  [https://developers.google.com/earth-engine/tutorials/community/developer-resources](https://developers.google.com/earth-engine/tutorials/community/developer-resources)    | 
+| Community datasets| [https://samapriya.github.io/awesome-gee-community-datasets/](https://samapriya.github.io/awesome-gee-community-datasets/)   |                   
 |Earth Engine charts|[https://developers.google.com/chart](https://developers.google.com/chart)|
 |Medium- charting|[https://medium.com/google-earth/charts-as-easy-as-what-where-print-f36b3f9bce89](https://medium.com/google-earth/charts-as-easy-as-what-where-print-f36b3f9bce89)|
 Medium- Noel Gorelick|[https://gorelick.medium.com/](https://gorelick.medium.com/)|
