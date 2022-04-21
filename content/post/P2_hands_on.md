@@ -7,7 +7,7 @@ timeToRead: 4
 authors:
 - Geethen Singh
 ---
-Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
+Access the complete script for this session [here](https://code.earthengine.google.com/985fda552f2834b935d14393077474b5?accept_repo=users%2Fzandersamuel%2Fee101_UiO)
 
 ![](/images/p2f1.png)
 **Figure 1:** The final expected output for this session showing the transitions and persistence of land cover categories across South Africa.

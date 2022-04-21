@@ -9,7 +9,7 @@ authors:
 
 ---
 
-Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
+Access the complete script for this session [here](https://code.earthengine.google.com/e3fea6dc228d29deb5f67831e50a9a95?accept_repo=users%2Fzandersamuel%2Fee101_UiO)
 
 ![](/images/p1f1.png)
 **Figure 1:** The final expected output for this practical showing Sentinel-2, level 2A RGB imagery clipped to a boundary.
