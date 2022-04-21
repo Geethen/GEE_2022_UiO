@@ -1,23 +1,13 @@
 ---
 title: Part 2 hands on
 date: 2022-04-13
-hero: /images/p2f1.png
-excerpt: Load, filter and visualise GEE data.
+hero: "/images/p2f1.png"
+excerpt: Perform Land cover change detection and summarise data.
 timeToRead: 4
 authors:
-  - Geethen Singh
+- Geethen Singh
 
 ---
-
-
-
-
-
-
-
-
-
-
 Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
 
 ![](/images/p2f1.png)
