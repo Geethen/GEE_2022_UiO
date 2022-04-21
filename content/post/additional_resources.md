@@ -2,6 +2,7 @@
 title: Additional resources
 date: 2022-04-11
 hero: /images/hero_add.jpg
+maxWidthPX: "100"
 excerpt: Where to next?
 timeToRead: 4
 authors:
