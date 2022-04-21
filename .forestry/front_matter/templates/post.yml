@@ -34,7 +34,7 @@ fields:
 - name: hero
   type: file
   config:
-    maxSize: 140
+    maxSize: 20
   label: Hero Image
 - name: authors
   type: tag_list
