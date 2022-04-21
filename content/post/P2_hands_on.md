@@ -1,7 +1,7 @@
 ---
 title: Part 2 hands on
 date: 2022-04-13
-hero: "/images/p2f1.png"
+hero: "/images/p2f0.png"
 excerpt: Perform Land cover change detection and summarise data.
 timeToRead: 4
 authors:
