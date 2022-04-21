@@ -6,24 +6,27 @@ excerpt: Perform Land cover change detection and summarise data.
 timeToRead: 4
 authors:
 - Geethen Singh
-
 ---
 Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
 
 ![](/images/p2f1.png)
 **Figure 1:** The final expected output for this session showing the transitions and persistence of land cover categories across South Africa.
-***
+
+---
 
 ## Learning Objectives
+
 By the end of this practical you should be able to:
+
 1. Understand the concept of Land Cover Change (LCC)
-2. Implement a multi-class LCC 
+2. Implement a multi-class LCC
 3. Relate changes in LC to a variable (in this case, relative wealth index (rwi))
 4. Download the final results to a csv
 
 Identifying and computing changes in LCC are one of the best proxies for ecosystem pressures which ultimately influence human-wellbeing. LCC involves the quantification of transitions between land cover classes or their persistence. In this hands on session, we wil go through the implementation of identifying and quantifying the area of land cover transitions and persistence. We will thereafter look at the relationship of unique transitions/persistence and mean (sd) of Relative Wealth Index (RWI) in South Africa (unfortunately, RWI is not available for Norway).
 
 ## Searching and Importing data
+
 To access the GEE code editor, go to https://earthengine.google.com/ >Platform> Code Editor.
 
 Within the code editor, go to the search bar and search for land cover 100. This is a Global Land cover dataset at a spatial resolution of 100 metres. Refer to the Table Schema for the definitions of the mapped LC categories.
@@ -33,12 +36,14 @@ We will also search for LSIB - a dataset containing country boundaries.
 ![](/images/p2f2.png)
 
 **Figure 2:** The first entry corresponds to the land cover dataset of interest for this session.
-***
+
+---
 
 ![](/images/p2f3.png)
 
 **Figure 3:** The Table Schema (classification legend showing the landcover classes available and their descriptions).
-***
+
+---
 
 Once the two datasets (the landcover and the country boundaries datasets) are imported change their names in the import section to lc and countries, respectively.
 
@@ -57,11 +62,12 @@ Map.addLayer(SA,{}, 'South African boundary',false);
 ```
 
 ## Filtering
-In this step we will create two individual landcover images that will contain the LC for the year 2015 and 2019. These years correspond to the earliest and latest years of data available in the land cover product. 
+
+In this step we will create two individual landcover images that will contain the LC for the year 2015 and 2019. These years correspond to the earliest and latest years of data available in the land cover product.
 
 We access a specific years landcover data from the LC100 dataset by using filterDate. Thereafter, we use filterBounds to get the landcover data for our desired AOI (South Africa). These two filtering steps correspond to the spatio-temporal filtering. Next, we select the band of data 'discrete classification'- This band of data corresponds to the most probable/dominant landcover type per 100 metre pixel for the entire extent of South Africa.
 
-We also use the .mosaic function, this allows us to to merge individual tiles into a single image. 
+We also use the .mosaic function, this allows us to to merge individual tiles into a single image.
 
 The clip function allows us to remove any pixels outide our polygon of interest. This is in contrast to filterBounds which retruens any images/tiles that intersect with our polygon of interest.
 
@@ -74,7 +80,9 @@ var lc19 = lc.filterDate('2019').filterBounds(SA).select('discrete_classificatio
 Map.addLayer(lc15,{},'lc15', false);
 Map.addLayer(lc19,{},'lc19', false);
 ```
+
 ## Land cover change detection
+
 Once we have the land cover for the two epochs (2015 and 2019), we need to identify the areas that have changed or remained the same.
 
 To achieve this, we need to recognise that the maximum number of digits that are used to identify any unique landcover category is three. Therefore, we first multiply the 2015 landcover by a factor of 10000 (essentially append four zeros to the landcover) and then add the 2019 landcover data (This changes the last three zeros). Overall, this allows us to capture unique transitions between each of the different landcover categories.
@@ -86,6 +94,7 @@ var merged = lc15.multiply(10000).add(lc19).rename('transitions');
 ```
 
 ## Quantify the area of each 'transition' category
+
 It may be useful to compute the area of each unique landcover transition/persistence.
 
 To do this, we first create an area image. This is an image that contains the area of each pixel stored as the pixel values. For example each pixel, will be a pixel with a value of 10 000 (square kilometres - 100 metres x 100 metres). To be able to aggregate the pixels that belong to a unique category, we add a second band- the landcover band. Thereafter, we apply the reduceRegion function to compute the sum of area covered by each unique category.
@@ -104,7 +113,7 @@ maxPixels: 1e10
 });
 ```
 
-To improve the readability of the results we extract each group name and coreesponding area and visualise the results as a dictionary. The dictionary has the format of 
+To improve the readability of the results we extract each group name and coreesponding area and visualise the results as a dictionary. The dictionary has the format of
 landcover transition/persistence : area (squared kilometres).
 
 ```js
@@ -125,7 +134,8 @@ print(result);
 ![](/images/p2f4.png)
 
 **Figure 4:** The global distribution of the availability of Relative Wealth Index (RWI) information.
-***
+
+---
 
 In a similar manner, we can determine what is the mean RWI per unique landcover transition. However, instead of aggregating an area image we aggregate a RWI image.
 
@@ -157,9 +167,20 @@ return ee.List([classNumber, mean]);
 var mresult = ee.Dictionary(classMeanLists.flatten());
 print(mresult);
 ```
+
 ## Export results as a csv to your Google Drive
+
 At this point, you may want to use the results you obtained with other data you have locally through excel or R.
 
 ```js
+var combined = classMeanLists.zip(classAreaLists);
+var output = ee.FeatureCollection(combined.map(function(object){
+  var dict1 = ee.Dictionary(ee.List(object).get(0));//mean RWI
+  var dict2 = ee.Dictionary(ee.List(object).get(1));//area sum
+  return ee.Feature(null, {'class':ee.Number(dict1.keys().get(0)), 'mean_rwi': dict1.values().get(0),
+  'area':dict2.values().get(0)});
+}));
+print(output.limit(5));
 
+Export.table.toDrive(output);
 ```
