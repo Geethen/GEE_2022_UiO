@@ -44,6 +44,7 @@ We will also search for LSIB - a dataset containing country boundaries.
 
 **Figure 2:** The first entry corresponds to the land cover dataset of interest for this session.
 ***
+
 ![](/images/p2f3.png)
 
 **Figure 3:** The Table Schema (classification legend showing the landcover classes available and their descriptions).
