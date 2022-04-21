@@ -1,8 +1,8 @@
 ---
 title: Additional resources
 date: 2022-04-13
-hero: /images/hero_add.png
-excerpt: Load, filter and visualise GEE data.
+hero: /images/hero_add.jpg
+excerpt: Where to next?
 timeToRead: 4
 authors:
   - Geethen Singh
