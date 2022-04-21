@@ -86,14 +86,6 @@ GEE training and teaching resources:
 * [GEE South Africa 2018 presentations](https://sites.google.com/view/saearthenginetraining/agenda)
 * [GEE web applications presentation](https://docs.google.com/presentation/d/1Bl4WF6L_zEWYvOPM3lcyAdq6fFcbccuz4sB2Ei5ksLE/edit#slide=id.g609f2f2b60_0_338)
 
-Miscellaneous and useful resources:
-
-* [GEE community datasets](https://samapriya.github.io/awesome-gee-community-datasets/)
-* [geemap - the best Python package for interactive mapping in GEE](https://github.com/giswqs/geemap)
-* [GEE apps from community](https://github.com/philippgaertner/awesome-earth-engine-apps)
-* [Creating snazzy basemaps in GEE](https://github.com/aazuspan/snazzy)
-* [Raster blending and visualization in GEE](https://github.com/jessjaco/gee-blend)
-
 GEE inspiring applications:
 
 * [https://www.youtube.com/watch?v=_z_mOeJbwOY&amp;t=84s](https://www.youtube.com/watch?v=_z_mOeJbwOY&t=84s)
