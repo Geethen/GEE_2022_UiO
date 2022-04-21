@@ -1,7 +1,7 @@
 ---
 title: Part 2 hands on
 date: 2022-04-13
-hero: /images/p1f0.png
+hero: /images/p2f1.png
 excerpt: Load, filter and visualise GEE data.
 timeToRead: 4
 authors:
@@ -10,8 +10,8 @@ authors:
 ---
 Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
 
-![](/images/p1f1.png)
-**Figure 1:** The final expected output for this practical showing Sentinel-2, level 2A RGB imagery clipped to a boundary.
+![](/images/p2f1.png)
+**Figure 1:** The final expected output for this session showing the transitions and persistence of land cover categories across South Africa.
 ***
 
 ## Learning Objectives
