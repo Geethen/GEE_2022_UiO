@@ -8,83 +8,68 @@ authors:
   - Geethen Singh
 ---
 
-**PROMENTA Google Earth Engine workshop agenda
+**PROMENTA Google Earth Engine workshop agenda**
 
-Time and place: Department of Psychology, Harald Schjelderups hus (Forskningsveien 3A), Seminarrom 2. Tuesday 26 April from 09.00 to 15.00.
+**Time and place:** Department of Psychology, Harald Schjelderups hus (Forskningsveien 3A), Seminarrom 2. Tuesday 26 April from 09.00 to 15.00.
 
-Participants: Max 20 - no prerequisite skills needed. Bring your own laptop!
+**Participants:** Max 20 - no prerequisite skills needed. Bring your own laptop!
 
-Preparation: In preparation for the course please ensure you have a Google Earth Engine account- Go to[https://earthengine.google.com/new_signup/](https://earthengine.google.com/new_signup/) if you need one. It may take up to 2 weeks to get approved.
+**Preparation:** In preparation for the course please ensure you have a Google Earth Engine account- Go to[https://earthengine.google.com/new_signup/](https://earthengine.google.com/new_signup/) if you need one. It may take up to 2 weeks to get approved.
 
-Link to code for practical sessions: [code](https://code.earthengine.google.com/?accept_repo=users/zandersamuel/ee101_UiO)
+**Link to code** for practical sessions: [code](https://code.earthengine.google.com/?accept_repo=users/zandersamuel/ee101_UiO)
 
-Schedule and presentation links:
+**Schedule and presentation links:**
 
 09h00 - 09h15: Workshop objectives and instructor and participant introductions.
 
 09h20 - 09h50: Introduction to Google Earth Engine (GEE) - [link to slides](https://docs.google.com/presentation/d/1U_j2UTFwzeyQ8IFSz8CZYrwwV0d0DN--I6bObjA3Hbw/edit?usp=sharing)
 
-·    **	**GEE benefits in comparison to other available tools
-
-·    **	**GEE data catalog and tools
-
-·    **	**GEE use cases
+* GEE benefits in comparison to other available tools
+* GEE data catalog and tools
+* GEE use cases
 
 09h55 - 10h25: Working with data in Google Earth Engine - [link to slides](https://docs.google.com/presentation/d/1BNHe0_atNFz7y6k9_jxNr_XOe4aKOgKC2a4_t87QpU8/edit?usp=sharing)
 
-·    **	**Data exploration – starting with the GEE data catalog
-
-·    **	**Raster datasets
-
-·    **	**Vector datasets
-
-·    **	**Importing and exporting data
+* Data exploration – starting with the GEE data catalog
+* Raster datasets
+* Vector datasets
+* Importing and exporting data
 
 10h30 - 11h00: Coffee!
 
 11h00 - 11h30: Google Earth Engine JavaScript code editor- [link to slides](https://docs.google.com/presentation/d/1xEOyGng4i1rb7D5podG5bks5NjKL1gUZNEjXk-3kfFk/edit?usp=sharing)
 
-·    **	**Computation logic
-
-·    **	**Coding concepts
-
-·    **	**Do’s and don'ts
+* Computation logic
+* Coding concepts
+* Do's and don'ts
 
 11h35 – 12h00:  Start of hands on
 
-·    **	**Loading data
+* ·    Loading data
+* ·    Filtering data
 
-·    **	**Filtering data
-
-·    **	**Visualizing data
+* ·    Visualizing data
 
 12h00 - 12h30: Lunch!
 
 12h30 - 13h45: Hands on
 
-·    **	**Continue with loading, filtering, and visualizing data
-
-·    **	**Intermediate application: The relationship between RWI and the type of land cover changes detected
-
-·    **	**Standard workflows
+* Continue with loading, filtering, and visualizing data
+* Intermediate application: The relationship between RWI and the type of land cover changes detected
+* Standard workflows
 
 13h50 - 14h30: Advanced GEE use - What else is possible?
 
-·    **	**Interactive web apps
-
-·    **	**Python API
-
-·    **	**Advanced workflows
-
-·    **	**Other useful resources
+* Interactive web apps
+* Python API
+* Advanced workflows
+* Other useful resources
 
 14h30 - 15h00: Q&A, discussion
 
-·    **	**Where to get help- Resources
-
-·    **	**Brainstorm how GEE can be used in your projects
-
-·    **	**Questions - e.g. How can I map ___ over Norway?
+* Where to get help- Resources
+* Brainstorm how GEE can be used in your projects
+* Questions - e.g. How can I map ___ over Norway?
 
 Extra links and resources:
 
@@ -122,7 +107,3 @@ GEE inspiring applications:
 * [https://www.youtube.com/watch?v=azFkbV0Q0Vo&amp;list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&amp;index=25](https://www.youtube.com/watch?v=azFkbV0Q0Vo&list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&index=25)
 
 **
-
-```js
-
-```
