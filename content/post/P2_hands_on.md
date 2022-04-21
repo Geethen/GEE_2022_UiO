@@ -12,6 +12,12 @@ authors:
 
 
 
+
+
+
+
+
+
 Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
 
 ![](/images/p2f1.png)
@@ -35,10 +41,11 @@ Within the code editor, go to the search bar and search for land cover 100. This
 We will also search for LSIB - a dataset containing country boundaries.
 
 ![](/images/p2f2.png)
+
 **Figure 2:** The first entry corresponds to the land cover dataset of interest for this session.
 ***
-
 ![](/images/p2f3.png)
+
 **Figure 3:** The Table Schema (classification legend showing the landcover classes available and their descriptions).
 ***
 
@@ -125,6 +132,7 @@ print(result);
 ## Determine the mean RWI value for a particular LC 'transition'.
 
 ![](/images/p2f4.png)
+
 **Figure 4:** The global distribution of the availability of Relative Wealth Index (RWI) information.
 ***
 

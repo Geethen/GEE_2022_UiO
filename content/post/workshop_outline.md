@@ -1,12 +1,13 @@
 ---
 title: Content outline
-date: 2022-04-12
+date: 2022-04-21
 hero: /images/outline_hero.jpg
 excerpt: Workshop content outline.
 timeToRead: 4
 authors:
   - Geethen Singh
 ---
+
 
 **PROMENTA Google Earth Engine workshop agenda**
 

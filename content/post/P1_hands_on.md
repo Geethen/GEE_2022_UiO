@@ -13,6 +13,10 @@ authors:
 
 
 
+
+
+
+
 Access the complete script for this session [here](https://code.earthengine.google.com/3d6ec3bd6c79711d142ad4c305d9571f)
 
 ![](/images/p1f1.png)
