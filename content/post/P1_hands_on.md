@@ -6,15 +6,13 @@ excerpt: Load, filter and visualise GEE data.
 timeToRead: 4
 authors:
 - Geethen Singh
-
 ---
-
 Access the complete script for this session [here](https://code.earthengine.google.com/e3fea6dc228d29deb5f67831e50a9a95?accept_repo=users%2Fzandersamuel%2Fee101_UiO)
 
 ![](/images/p1f1.png)
 **Figure 1:** The final expected output for this practical showing Sentinel-2, level 2A RGB imagery clipped to a boundary.
 
-***
+---
 
 ## Learning Objectives
 
@@ -35,7 +33,7 @@ Within the code editor, go to the search bar and search for Sentinel-2.
 ![](/images/p1f2.png)
 **Figure 1:** Process to upload a shapefile into GEE as a new assest imported into the script as a FeatureColection
 
-***
+---
 
 Click on the second Sentinel-2 MSI: Multispectral Instrument, level-2A option. This brings up the metadata of the Sentinel-2 satellite mission. The metadata includes information regarding the details of the algorithms used to pre-process a dataset. It will also provide information regarding the dataset availability, spatio-temporal and spectral resolution (as covered in the earlier lecture), scaling factors that are unique to Google’s ingestion of the data and if you are dealing with a derived EO product (such as tree cover), a reference to the journal article associated with the published dataset.
 
