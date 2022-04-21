@@ -9,7 +9,6 @@ authors:
 ---
 
 
-![](/images/p2f0.png)
 **Figure 1:** The final expected output for this session showing the transitions and persistence of land cover categories across South Africa.
 
 ---
