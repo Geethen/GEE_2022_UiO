@@ -104,5 +104,3 @@ GEE inspiring applications:
 * [https://www.youtube.com/watch?v=i0P3aPbG00A&amp;list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&amp;index=11](https://www.youtube.com/watch?v=i0P3aPbG00A&list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&index=11)
 * [https://www.youtube.com/watch?v=7RPrUV42BEY&amp;list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&amp;index=19](https://www.youtube.com/watch?v=7RPrUV42BEY&list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&index=19)
 * [https://www.youtube.com/watch?v=azFkbV0Q0Vo&amp;list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&amp;index=25](https://www.youtube.com/watch?v=azFkbV0Q0Vo&list=PLLW-qoCMKQsz_YbyhPUAdJPAJF2Irc5Kt&index=25)
-
-**
