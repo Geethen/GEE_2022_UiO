@@ -45,10 +45,9 @@ authors:
 
 11h35 – 12h00:  Start of hands on
 
-* ·    Loading data
-* ·    Filtering data
-
-* ·    Visualizing data
+* Loading data
+* Filtering data
+* Visualizing data
 
 12h00 - 12h30: Lunch!
 
