@@ -12,7 +12,7 @@ authors:
 **Figure 1:** The final expected output for this session showing the transitions and persistence of land cover categories across South Africa.
 
 ---
-Access the complete script for this session [here](https://code.earthengine.google.com/985fda552f2834b935d14393077474b5?accept_repo=users%2Fzandersamuel%2Fee101_UiO)
+Access the complete script for this session [here](https://code.earthengine.google.com/1b18f58d64e971950e4329f7d2551b1b)
 
 ## Learning Objectives
 
